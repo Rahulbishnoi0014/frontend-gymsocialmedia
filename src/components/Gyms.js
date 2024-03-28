@@ -17,7 +17,7 @@ const Gyms = () => {
 
     const getgyms = async () => {
         try{
-        const res = await axios.get("https://backend-fithubserver.onrender.com/allgym");
+        const res = await axios.get("http://localhost:5001/allgym");
 
         // console.log(res.data);
         setgym(res.data);
