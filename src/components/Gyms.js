@@ -17,7 +17,7 @@ const Gyms = () => {
 
     const getgyms = async () => {
         try{
-        const res = await axios.get("http://localhost:5001/allgym");
+        const res = await axios.get("http://51.20.85.223:5001/allgym");
 
         // console.log(res.data);
         setgym(res.data);
