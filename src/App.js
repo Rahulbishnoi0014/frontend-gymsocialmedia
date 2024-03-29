@@ -28,6 +28,8 @@ import Errorpage from "./components/Errorpage";
 import Logout from "./components/Logout";
 import AddEvent from './components/AddEvent';
 import Gyms from './components/Gyms';
+import Gympage from './components/Gympage';
+
 
 
 
@@ -45,6 +47,7 @@ const App = () => {
 
         <Route path="events" element={<Events/>} />
         <Route path="allgyms" element={<Gyms/>} />
+        <Route path="/gym/:id" element={<Gympage/>} />
 
         <Route path="addevent" element={<AddEvent />} />
 
